@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Notes</string>
+
+    <string name="applicationID">ca-app-pub-3940256099942544~3347511713</string>
+    <string name="bannerAdUnitID">ca-app-pub-3940256099942544/6300978111</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="time_start">Start time</string>
+    <string name="monday">Monday</string>
+    <string name="repeat">Repeat</string>
+    <string name="sunday">Sunday</string>
+    <string name="space_time_repeat">Repeat by interval time</string>
+    <string name="saturday">Saturday</string>
+    <string name="friday">Friday</string>
+    <string name="thursday">Thursday</string>
+    <string name="wednesday">Wednesday</string>
+    <string name="tuesday">Tuesday</string>
+    <string name="note">Note</string>
+    <string name="title">Title</string>
+    <string name="cancel">Cancel</string>
+    <string name="delete_all_notes">Delete all notes</string>
+    <string name="delete_all_remider">Delete all reminder</string>
+    <string name="add_note">Add note</string>
+    <string name="add_reminder">Add reminder</string>
+    <string name="hour">Hour</string>
+    <string name="minutes">Minute</string>
+    <string name="notes">Notes</string>
+    <string name="today">Today</string>
+    <string name="rate">Rate</string>
+    <string name="actions">ACTIONS</string>
+    <string name="others">OTHERS</string>
+</resources>

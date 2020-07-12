@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item android:title="@string/actions">
+        <menu>
+            <item
+                android:id="@+id/nav_clear"
+                android:title="@string/delete_all_notes"
+                android:icon="@drawable/ic_clear_all"/>
+
+            <item
+                android:id="@+id/nav_clear_alarm"
+                android:title="@string/delete_all_remider"
+                android:icon="@drawable/ic_clear_all"/>
+        </menu>
+    </item>
+
+    <item android:title="@string/others">
+        <menu>
+            <item
+                android:id="@+id/nav_rate"
+                android:title="@string/rate"
+                android:icon="@drawable/ic_star"/>
+        </menu>
+    </item>
+</menu>

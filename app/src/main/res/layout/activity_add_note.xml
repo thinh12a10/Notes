@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.AddNoteActivity"
+    android:weightSum="10">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar_add_note"
+        android:background="#83776D"
+        app:title="@string/add_note"
+        app:titleTextColor="#ffffff"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize">
+
+        <Button
+            android:id="@+id/btn_alarm_add"
+            android:background="@drawable/ic_alarm"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="right"/>
+
+        <Button
+            android:id="@+id/btn_alarm_off"
+            android:background="@drawable/ic_alarm_off"
+            android:visibility="gone"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="right" />
+    </androidx.appcompat.widget.Toolbar>
+
+    <EditText
+        android:id="@+id/edit_input_title"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:textColor="#070707"
+        android:hint="@string/title"
+        android:background="@drawable/input_title_border"
+        android:paddingLeft="20dp"
+        android:singleLine="true"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+    <EditText
+        android:id="@+id/edit_input_note"
+        android:textSize="20sp"
+        android:hint="@string/note"
+        android:background="@drawable/input_note_border"
+        android:padding="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:textAlignment="viewStart"
+        android:gravity="start"
+        android:layout_weight="9"/>
+</LinearLayout>
